@@ -1,0 +1,47 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: rgb(237,237,237);
+}
+
+@media only screen and (max-width: 1079px) {
+  body {
+    background-color: white;
+  }
+  .comparison-hr {
+    color:black
+  }
+}
+
+.comparison-hr {
+  color:white
+}
+
+h2, h3, #title-button {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  color: rgb(74, 170, 165)
+}
+
+.main-body {
+  background-color: white;
+  border:5px solid rgb(237,237,237);
+  padding:20px
+}
+
+.comparison-header {
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.comparison-img {
+  width: 100%
+}
+
+.selected-vis {
+  border:2px solid rgb(74, 170, 165);
+}
